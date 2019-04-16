@@ -7,6 +7,16 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="GOOGLE_CLIENT_ID.apps.googleusercontent.com">
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+  <script type=text/javascript>
+var oauthWindow;
+function openORCID() {
+    //var oauthWindow = window.open("https://orcid.org/oauth/authorize?client_id= CLIENT_ID&response_type=code&scope=/authenticate&show_login=false&redirect_uri=https://yourwebsite.edu/RedirectURI", "_blank", "toolbar=no, scrollbars=yes, width=500, height=600, top=500, left=500");
+    var oauthWindow = window.open("https://orcid.org/oauth/authorize?client_id=ORCID_CLIENT_ID&response_type=code&scope=/authenticate&redirect_uri=https://aphasia.help");
+}
+  </script>
 </head>
 <body>
   <app-root></app-root>
