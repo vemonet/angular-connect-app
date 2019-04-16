@@ -40,3 +40,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Add Bootstrap JS scripts
+
+Add Bootstrap JS scripts to `angular.json` in `scripts`
+
+```json
+"scripts": [
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/popper.js/dist/umd/popper.min.js",
+    "node_modules/bootstrap/dist/js/bootstrap.min.js"
+],
+```
+
