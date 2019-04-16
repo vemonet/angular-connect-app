@@ -13,7 +13,7 @@ docker build -t angular-connect-app .
 ## Run
 
 ```shell
-docker run -it angular-connect-app
+docker run -it -p 80:80 angular-connect-app
 ```
 
 ## Development server
