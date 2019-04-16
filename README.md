@@ -1,6 +1,6 @@
 # angular-connect-app
 
-Complete angular app with Docker multi stage build to connect to OpenAPI providers like Google or ORCID
+Complete angular app with Docker multi stage build to connect to OpenAPI providers like Google or ORCID and using Bootstrap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8., uses SCSS and deploy on nginx Docker.
 
